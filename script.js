@@ -7,7 +7,7 @@ const songs = [
     {
         title: "Song One",
         artist: "Your Artist",
-        file: "music/song1.mp3"
+        file: "Adhoori Si Raat.mp3"
     },
 
     {
