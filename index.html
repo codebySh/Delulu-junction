@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delulu Junction</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="hero">
+
+    <div class="overlay"></div>
+
+    <!-- ================= TOP BAR ================= -->
+
+    <header class="topbar">
+
+        <div class="logo">
+            DJ
+        </div>
+
+        <nav>
+            <a href="#">Junction</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="icon-btn" id="soundBtn">
+            ♪
+        </button>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <section class="content">
+
+        <div class="equalizer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <p class="welcome">
+            WELCOME TO THE JUNCTION
+        </p>
+
+        <h1>
+            DELULU
+        </h1>
+
+        <div class="junction-title">
+            <span></span>
+            JUNCTION
+            <span></span>
+        </div>
+
+        <p class="tagline">
+            Where Every Song Finds Its Place
+            <b>♥</b>
+        </p>
+
+        <p class="subtitle">
+            Music
+            <strong>•</strong>
+            Feelings
+            <strong>•</strong>
+            Memories
+            <strong>•</strong>
+            You
+        </p>
+
+
+        <!-- ================= MUSIC LANES ================= -->
+
+        <div class="music-lanes">
+
+            <button class="lane"
+                data-mood="Love Lane">
+                ♥ LOVE LANE
+            </button>
+
+            <button class="lane"
+                data-mood="Rain Corner">
+                ☁ RAIN CORNER
+            </button>
+
+            <button class="lane"
+                data-mood="Hype Station">
+                ϟ HYPE STATION
+            </button>
+
+            <button class="lane"
+                data-mood="Midnight Café">
+                ☕ MIDNIGHT CAFÉ
+            </button>
+
+            <button class="lane"
+                data-mood="Desi Junction">
+                ♫ DESI JUNCTION
+            </button>
+
+        </div>
+
+
+        <!-- ================= ENTER BUTTON ================= -->
+
+        <button class="enter-btn" id="enterBtn">
+
+            <span class="enter-icon">
+                ◉
+            </span>
+
+            <span class="enter-text">
+
+                <strong>
+                    ENTER THE JUNCTION
+                </strong>
+
+                <small>
+                    Let the music guide you
+                </small>
+
+            </span>
+
+            <span class="arrow">
+                ↓
+            </span>
+
+        </button>
+
+    </section>
+
+
+    <!-- ================= REAL MUSIC PLAYER ================= -->
+
+    <section class="player">
+
+        <!-- Album -->
+        <div class="album">
+            ♫
+        </div>
+
+
+        <!-- Song Information -->
+        <div class="track-info">
+
+            <small>
+                NOW PLAYING
+            </small>
+
+            <strong id="songTitle">
+                No Song Playing
+            </strong>
+
+            <span id="artistName">
+                Select a song
+            </span>
+
+        </div>
+
+
+        <!-- Previous -->
+        <button
+            class="control-btn"
+            id="previousBtn">
+            ⏮
+        </button>
+
+
+        <!-- Play -->
+        <button
+            class="play-btn"
+            id="playBtn">
+            ▶
+        </button>
+
+
+        <!-- Next -->
+        <button
+            class="control-btn"
+            id="nextBtn">
+            ⏭
+        </button>
+
+    </section>
+
+
+    <!-- ================= PROGRESS ================= -->
+
+    <section class="progress-area">
+
+        <span id="currentTime">
+            0:00
+        </span>
+
+        <input
+            type="range"
+            id="progressBar"
+            value="0"
+            min="0"
+            max="100"
+        >
+
+        <span id="duration">
+            0:00
+        </span>
+
+    </section>
+
+
+    <!-- ================= EXTRA CONTROLS ================= -->
+
+    <section class="extra-controls">
+
+        <button id="shuffleBtn">
+            🔀
+        </button>
+
+        <button id="repeatBtn">
+            🔁
+        </button>
+
+        <label>
+            🔊
+
+            <input
+                type="range"
+                id="volumeBar"
+                min="0"
+                max="1"
+                step="0.01"
+                value="1">
+        </label>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="about">
+
+        <span>
+            DELULU JUNCTION
+        </span>
+
+        <span id="clock">
+            00:00:00
+        </span>
+
+        <span>
+            PLAY YOUR STORY ✦
+        </span>
+
+    </footer>
+
+</main>
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+  </html>
